@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iron Man Tanıtım Sayfası</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1, h2 {
+      color: #b30000;
+    }
+    img {
+      max-width: 200px;
+      border-radius: 8px;
+    }
+    ul {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      list-style-type: disc;
+    }
+    form {
+      background-color: #fff;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #b30000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Iron Man Hakkında</h1>
+  <p>Iron Man, Marvel evreninin en ikonik süper kahramanlarından biridir. Gerçek adı Tony Stark olan Iron Man, dahi bir mucit ve zengin bir sanayicidir. Kendi yaptığı yüksek teknolojili zırhıyla dünyayı korumaktadır.</p>
+
+  <h2>Özellikler ve Süper Güçler</h2>
+  <ul>
+    <li>Zeka seviyesi: Dahi</li>
+    <li>Yüksek teknolojili zırhlar</li>
+    <li>Yapay zeka destekli sistemler (örnek: J.A.R.V.I.S)</li>
+    <li>Uçuş ve silah sistemleri</li>
+  </ul>
+
+  <h2>Düşmanları</h2>
+  <ul>
+    <li>Obadiah Stane (Iron Monger)</li>
+    <li>Whiplash</li>
+    <li>Mandarin</li>
+  </ul>
+
+  <h2>Ekip Arkadaşları</h2>
+  <ul>
+    <li>Captain America</li>
+    <li>Black Widow</li>
+    <li>War Machine</li>
+  </ul>
+
+  <img src="ironman.jpg" alt="Iron Man">
+
+  <p>Daha fazla bilgi için <a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank">resmi Marvel sayfasını ziyaret edin</a>.</p>
+
+  <h2>Kahraman Ekibine Katıl!</h2>
+  <form>
+    <label>İsim ve Soyisim:</label>
+    <input type="text" name="isim" required placeholder="Adınızı girin">
+
+    <label>Süper Kahraman Adı:</label>
+    <input type="text" name="kahraman_adi" required placeholder="Kendi süper kahraman adınızı yazın">
+
+    <label>En Sevdiğiniz Süper Güç:</label>
+    <input type="text" name="super_guc" required placeholder="Örneğin: Uçmak, Görünmezlik...">
+
+    <label>Başvuru Mesajı:</label>
+    <textarea name="mesaj" required placeholder="Neden ekibe katılmak istiyorsunuz?"></textarea>
+
+    <button type="submit">Gönder</button>
+  </form>
+
+</body>
+</html>
